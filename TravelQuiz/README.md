@@ -6,4 +6,4 @@ Auf Grund des GPS-Features muss die App auf einem Server gehostet werden, der ht
 
 https://www.bytehamster.com/tools/TravelQuiz/
 
-<img src="screenshot.png" />
+<img src="screenshot.png" width="300" />
