@@ -5,9 +5,10 @@ var PROPERTY_BLACKLIST = ["P625", "P791", "P1705", "P1813", "P131", "P373",
                           "P227", "P214", "P421", "P2427", "P213", "P1281",
                           "P2503", "P439", "P2581", "P3417", "P982", "P814",
                           "P646", "P1566", "P809", "P910", "P402", "P935",
-                          "P856", "P31", "P1612", "P973", "P1183"
+                          "P856", "P31", "P1612", "P973", "P1183", "P242",
+                          "P361"
                          ];
-var IMAGE_TYPES = ["Bild", "Logo", "Wappen", "Lagekarte"];
+var IMAGE_TYPES = ["Bild", "Logo", "Wappen"];
 
 var lastAction = new Date().getTime();
 
