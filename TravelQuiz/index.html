@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TravelQuiz</title>
+        <script src="jquery.js"></script>
+        <script src="script.js"></script>
+        <script src="md5.min.js"></script>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    </head>
+    <body onload="searchGps()">
+        <div id="header">
+            TravelQuiz
+            <span id="source">Datenquelle: <a target="_blank" href="https://www.wikidata.org/">Wikidata</a></span>
+            <a id="next" href="javascript:nextQuestion()">»</a>
+        </div>
+        <div id="searching" class="page">
+            Suche nach GPS...
+            <img id="satellite" src="satellite.svg" />
+            <img id="world" src="earth.svg" />
+        </div>
+        <div id="loading" class="page">
+            Suche nach Fragen...
+            <img id="spinner" src="load.svg" />
+        </div>
+        <div id="question" class="page">
+            Welches der Objekte in deiner Umgebung hat die folgende Eigenschaft?
+            <span id="question-property">Höhe: 104.25m</span>
+            <p id="answers">
+              <a id="answer0" href="javascript:answer(0)">Schloss Karlsruhe</a>
+              <a id="answer1" href="javascript:answer(1)">Mathebau</a>
+              <a id="answer2" href="javascript:answer(2)">Infobau</a>
+            </p>
+        </div>
+        <div id="error" class="page">
+            <span>Error.</span>
+            <img id="alert" src="alert.svg" />
+            <br /><br />
+            <a href="javascript:searchGps()">Erneut versuchen</a>
+        </div>
+    </body>
+</html>

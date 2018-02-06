@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teco Notifier</string>
+    <string name="start">Dienst starten</string>
+    <string name="started">Dienst gestartet.</string>
+    <string name="conecting">Verbinde…</string>
+    <string name="connected">Verbunden</string>
+    <string name="service">BLE-Service nicht gefunden</string>
+    <string name="characteristic">BLE-Dienst nicht gefunden</string>
+    <string name="device">BLE-Gerät nicht gefunden</string>
+    <string name="disconnected">Verbindung getrennt</string>
+    <string name="send">Senden fehlgeschlagen</string>
+    <string name="select">Motoren wählen, die bei einer eingehenden Benachrichtigung dieser App vibrieren sollen</string>
+    <string name="notification">Dienst läuft</string>
+    <string name="morse">Titel der Benachrichtigung als Morse-Code vibrieren</string>
+</resources>

@@ -1,0 +1,121 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #111;
+    max-width: 100%;
+}
+body {
+    background: #fafafa;
+}
+body > div > img {
+    display: block;
+    margin: auto;
+    opacity: 0.2;
+}
+img {
+    max-height: 300px;
+}
+#question-property img {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 10px;
+}
+.page {
+    display: none;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    text-align: center;
+}
+#header {
+    padding: 15px;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    font-weight: normal;
+}
+#header #source {
+    margin-left: 10px;
+}
+#header * {
+    color: #bbb;
+    font-size: 14px;
+}
+#next {
+    font-size: 20px;
+    color: #354eff;
+    text-decoration: none;
+    float: right;
+    font-weight: bold;
+    display: inline-block;
+    padding: 0px 10px;
+}
+#searching {
+    display: block;
+}
+#searching #satellite {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: -110px;
+    top: 30px;
+}
+#searching #world {
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+    width: 250px;
+    height: 250px;
+}
+#loading #spinner {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#question span {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    text-align:center;
+    padding: 10px;
+    word-break: break-word;
+}
+.page a {
+    margin-top: 10px;
+    padding: 12px 8px;
+    display: block;
+    border: 1px solid #0b1458;
+    background: #354eff;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+#question a.right {
+    border: 1px solid #078c0b;
+    background: #269e2a;
+}
+#question a.wrong {
+    border: 1px solid #560303;
+    background: #ab1212;
+}
+#error #alert {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+#answers {
+    margin-bottom: 50px;
+}

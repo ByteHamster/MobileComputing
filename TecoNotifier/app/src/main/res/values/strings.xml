@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teco Notifier</string>
+    <string name="start">Start service</string>
+    <string name="started">Service started.</string>
+    <string name="conecting">Connecting…</string>
+    <string name="connected">Connected</string>
+    <string name="service">BLE-Service not found</string>
+    <string name="characteristic">BLE-Characteristic not found</string>
+    <string name="device">BLE-Device not found</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="send">Send failed</string>
+    <string name="select">Select motors that vibrate if a notification of this app is received</string>
+    <string name="notification">Service is running</string>
+    <string name="morse">Vibrate title of the notification in morse code</string>
+</resources>

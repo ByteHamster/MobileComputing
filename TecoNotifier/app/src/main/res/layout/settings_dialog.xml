@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        >
+    <LinearLayout android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:gravity="center">
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/off"
+                android:id="@+id/s1"
+                android:layout_gravity="center"
+                android:padding="4dp"/>
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/off"
+                android:id="@+id/s2"
+                android:layout_gravity="center"
+                android:padding="4dp"/>
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/off"
+                android:id="@+id/s3"
+                android:layout_gravity="center"
+                android:padding="4dp"/>
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/off"
+                android:id="@+id/s4"
+                android:layout_gravity="center"
+                android:padding="4dp"/>
+    </LinearLayout>
+
+    <CheckBox
+            android:text="@string/morse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:id="@+id/morse"/>
+
+</LinearLayout>
